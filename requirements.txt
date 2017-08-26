@@ -1,0 +1,23 @@
+Goal:
+
+Develop a program that uses Node's fs library to read and write local files.
+
+Assignment:
+
+For this assignment, you'll be creating a program that can read from multiple files and writes a new file using that data.
+
+Below are detailed instructions for your program:
+
+Read in a file, named "people1.jsonView in a new window", which contains a list of people.
+Read in another file, named "people2.jsonView in a new window", which contains another list of people.
+After both of these files have been read, write a new file called "sorted_people.txt" which contains a sorted list of all the people from the first two files. Each person's name should be on its own line.
+Bonus:
+
+Put your people json files in a directory, and be write your code such that it can load in an unlimited number of people json files that are in that directory.
+Grading Criteria:
+
+The program reads from both the"people1.jsonView in a new window" and"people2.jsonView in a new window" files (Or the directory, if you do the bonus.)
+The program writes a new file called "sorted_people.txt" which contains all the people from the first two files.
+The list of people in the "sorted_people.txt" is sorted.
+The program handles cases where either people1.json or people2.json are missing.
+The program uses the async file I/O functions.
